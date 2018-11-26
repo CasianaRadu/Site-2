@@ -1,0 +1,315 @@
+@media only screen and (max-width: 480px){
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+}
+    
+    .container {
+        width: auto;
+}
+    
+    #header {
+        background: url(Images/bg-header.png) no-repeat scroll center top;
+}
+
+    /*Main-menu*/
+    
+    
+    .mainmenu {
+        overflow: hidden;
+        width: 100%;
+    }
+   
+    .mainmenu ul li {
+        list-style-type: none;
+        display: block;
+    }
+    
+    .mainmenu ul li a:hover,
+    .mainmenu ul li.selected-item a {
+        border-top: none;
+    }
+    
+    .mainmenu ul li a:hover {
+        color: #54D154;
+        font-weight: 600;
+        
+    }
+
+    .mainmenu a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .mainmenu a:hover {
+        color: black;
+    }
+
+    .selected-item {
+        color: white;
+        padding-top: 15px;
+    }
+    
+    ul {
+        width: 100%;
+    }
+        
+    ul li {
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+   
+    .mainmenu .icon {
+        display: none;
+    }
+
+    .icon {
+        margin-left: 30px;
+    }
+    
+    .mainmenu a:not(.selected-item) {
+        display: none;
+    }
+        
+    .mainmenu a.icon {
+        display: block;
+        margin-right: 35px;
+    }
+    
+    .mainmenu a.icon:hover {
+        color: #54D154;
+    }
+         
+    .mainmenu.responsive a.icon {
+        top: 10px;
+    }
+    
+    .mainmenu.responsive a {
+        display: block;
+    }
+    
+    .search-container {
+        display: none;
+    }
+    
+     /*Title*/
+    
+    #title h1 {
+        font-size: 46px;
+        line-height: 1.2;
+        padding-top: 111px;
+        padding-right: 0;
+        padding-bottom: 156px;
+}
+    
+    .title-button {
+        margin-left: 9px;
+    }
+    
+    .scroll {
+        display: none;
+    }
+    
+    
+    /*Main-articles*/
+    
+     .about h3 {
+        font-size: 27px;
+        margin: 37px auto;
+    }
+    
+    .about h3:after, 
+    .about p {
+        display: none;
+    }
+    
+    .article-column img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+    /*Article-column*/
+    
+    .article-column h2 {
+        font-size: 17px;
+    }
+
+    .article-column p {
+        width: 81%;
+    }
+    
+    /*Text-intro*/
+
+    #text-intro h3 {
+        font-size: 27px;
+        margin: 30px auto;
+    }
+
+    #text-intro h3:after,
+    #text-intro p {
+        display: none;
+    }
+    
+    .buttons {
+        margin: 10px auto 50px;
+    }
+    
+    #gallery img {
+        width: 90px;
+        height: 90px;
+        margin-left: 45px;
+    }
+    
+    #gallery img:last-child {
+        display: none;
+    }
+    
+    .more-work {
+        margin-top: 115px;
+    }
+    
+    
+    /*Testimonials*/
+    
+    #testimonials h3 {
+        font-size: 27px;
+        margin: 30px auto;
+    }
+    
+    #testimonials h3:after,
+    span {
+        display: none;
+    }
+    
+    #testimonials p {
+        width: 72%;
+        margin: 50px auto 30px;
+    }
+    
+    
+    /*Clients*/
+    
+    #client h3 {
+        font-size: 27px;
+        margin: 30px auto;
+    }
+    
+    #client h3:after,
+    #client p {
+        display: none;
+    }
+
+    #logo-client > .column {
+        float: left;
+        width: 50%;  
+    }
+    
+    
+    /*Team*/
+    
+    #team h3 {
+        font-size: 27px;
+    }
+    
+    #team h3:after,
+    #team p {
+        display: none;
+    }
+    
+    .team-column {
+        padding-top: 54px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .profile-picture {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .vertical-separator {
+        display: block;
+        position: relative;
+        left: 43px;
+    }
+    
+    .team-column h4 {
+        font-size: 12px;
+        top: 0px;  
+    }
+    
+    .social-team-column {
+        top: 0;
+        left: 0;
+    }
+    
+    .team-button {
+        top: 90px;
+    }
+    
+    
+    /*Footer*/
+    
+    #footer {
+        height: 530px;
+        overflow: hidden;
+    }
+    
+    .footer-column {
+        width: 50%;
+    }
+    
+    .footer-column h3:after {
+        display: none;
+    }
+    
+    .footer-column p {
+        height: 162px;
+        overflow-y: scroll;
+        margin: 10px 31px;
+    }
+    
+    .post-article img {
+        width: 35px;
+        height: 35px;   
+    }
+    
+    .post-article h5 {
+        display: none;
+    }
+    
+    .tag {
+        margin-top: 10px;
+    }
+    
+    .social {
+        margin-top: 17px;
+        margin-left: 74px;
+    }
+    .studio-rubric p {
+        height: auto;
+    }
+    
+    .name, 
+    .email, 
+    .message, 
+    .submit {
+        width: 168px!important;
+    }
+    
+    .contact {
+        position: relative;
+        left: 229px;
+        bottom: 187px;
+    }    
+}

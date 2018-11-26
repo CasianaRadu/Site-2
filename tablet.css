@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width: 641px) and (max-width: 991px) {
+    
+    html,body {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0;
+        padding: 0;     
+}
+    .container {
+        width: 100%;
+}
+    
+    #header {
+        background: transparent url(Images/bg-header.png) no-repeat scroll center top;
+        height: 659px;
+}
+    
+   
+    /*Main-menu*/
+    
+    #main-menu {
+        margin-top: 45px;
+    }
+    
+    #main-menu ul li {
+        display: block;
+}
+    
+    #main-menu ul li a {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        margin-bottom: 15px;
+}
+    
+    #main-menu ul li.selected-item a {
+        border-top: none;
+        color: #54d154;
+}
+    
+    .search-container {
+        margin-top: 17px;
+}
+    
+    .search {
+        padding: 10px 0 10px 15px;
+}
+    
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+}
+    
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+}
+    
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+}
+    
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+}
+    
+    
+    /*Title*/
+    
+    #title h1 {
+        padding-top: 136px;
+        line-height: 1.2;
+}
+    
+    .scroll {
+        top: 111px;
+        right: 162px;
+}
+    
+    
+    /*Main-articles*/
+    
+    .about h3 {
+        font-size: 27px;
+        margin: 37px auto;
+}
+    
+    .about h3:after, 
+    .about p {
+        display: none;
+    }
+    
+    /*Article-column*/
+    
+    .article-column h2 {
+        font-size: 16px;
+    }
+    
+    .article-column p {
+        font-size: 13px;
+}
+    
+    
+    /*Text-intro*/
+    
+    #text-intro h3:after,
+    #text-intro p {
+        display: none;
+    }
+    
+    #text-intro h3 {
+        font-size: 27px;
+        padding-top: 25px;
+    }
+    
+    .buttons {
+        margin: 0 auto 20px;
+    }
+    
+    
+    /*Gallery*/
+    
+    #gallery img {
+        float: none;  
+        margin: 0 15px;
+    }
+    
+    #gallery img:last-child {
+        display: none;
+    }
+    
+    
+    /*Testimonials*/
+    
+    #testimonials h3 {
+        font-size: 27px;
+    }
+    
+    #testimonials h3:after,
+    span {
+        display: none;
+    }
+    
+    
+    /*Clients*/
+    
+    #client h3 {
+        font-size: 27px;
+    }
+    
+    #client h3:after,
+    #client p {
+        display: none;
+    }
+
+    #logo-client > .column {
+        float: left;
+        width: 50%;  
+    }
+    
+    
+    
+    /*Team*/
+    
+    #team h3 {
+        font-size: 27px;
+    }
+    
+    #team h3:after,
+    #team p {
+        display: none;
+    }
+    
+    .team-column {
+        padding-top: 54px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .vertical-separator {
+        display: block;
+        position: relative;
+        left: 49px;
+    }
+    
+    .team-column h4 {
+        position: static;
+        left: 0;
+    }
+    
+    .social-team-column {
+        top: 0;
+        left: 11px;
+    }
+    
+    .team-button {
+        top: 35px;
+    }
+    
+   
+    
+    /*Footer*/
+    
+    #footer {
+        height: 650px;
+        overflow: hidden;
+    }
+    
+    .footer-column {
+        width: 50%;
+    }
+    
+    .footer-column h3 {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+    
+    .footer-column h3:after {
+        display: none;
+    }
+    
+    .footer-column p {
+        height: 248px;
+        overflow-y: scroll;
+        margin: 10px 31px;
+    }
+    
+    .social {
+        margin-left: 100px;
+    }
+    
+    
+    .post-article img {
+        margin-right: 2px;
+        margin-left: 0; 
+    }
+    
+  
+    .studio-rubric p {
+        height: auto;
+    }
+    
+    .name, 
+    .email, 
+    .message, 
+    .submit {
+        font-size: 10px;
+        width: 230px!important;
+        margin-left: 31px;
+        padding-top: 5px;
+    }
+    
+    .contact {
+        position: relative;
+        left: 337px;
+        bottom: 130px;
+    } 
+}
